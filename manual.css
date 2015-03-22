@@ -1,0 +1,164 @@
+body{
+	background: rgba(106, 235, 255, 0.9);
+	margin-top: 5%;
+	left: 0px;
+	position: relative;
+	text-align: center;
+}
+h1{
+	font-family: cursive;
+	font-size: 40px;
+}
+.submit{
+	margin-top: -10px;
+    padding:6px 15px;
+    background:rgba(255, 255, 255, 0.7);
+    border:0px solid #dbdbdb;
+    font-family: cursive;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#inside_temp{
+	margin-right: 20px;
+	float: right;
+}
+#outside_temp{
+	float: right;
+	margin-right: 20px;
+}
+#hum_air{
+	float: right;
+	margin-right: 20px;
+}
+#water{
+	float: right;
+	margin-right: 20px;
+}
+#hum_earth{
+	float: right;
+	margin-right: 20px;
+}
+#batery{
+	float: right;
+	margin-right: 20px;
+}
+#doors{
+	float: right;
+	margin-right: 20px;
+}
+#windows{
+	float: right;
+	margin-right: 20px;
+}
+#main_nav table tr td{
+	height: 50px;
+}
+#main_nav table tr #auto{
+	border-top-left-radius: 10px;
+
+}
+#main_nav table tr #manuel{
+	border-top-right-radius: 10px;
+	background: rgba(13, 156, 255, 0.9);
+}
+
+table{
+ 	margin-left: 10%;
+	
+	text-align: center;
+}
+table tr td{
+	height: 200px;
+	background: rgba(15, 206, 255, 0.9);
+}
+
+table tr td:hover{
+	background: rgba(13, 156, 255, 0.9);
+}
+
+#second_div table tr #first{
+	border-bottom-left-radius: 10px;
+	
+}
+
+#second_div table tr #last{
+	border-bottom-right-radius: 10px;
+	
+}
+
+table a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	font-family: cursive;
+}
+
+table a:hover{
+	color: white;
+}
+table tr td:hover button{
+	background: rgba(15, 206, 255, 0.9);
+}
+button{
+	width: 60px;
+	height: 30px;
+	background: rgba(13, 156, 255, 0.9);
+	padding: 0px 0px;
+	border:none;
+	font-family: cursive;
+	cursor: pointer;
+
+	border-radius: 5px;
+}
+
+
+
+
+
+
+/*
+nav .first_ul {
+	width: 1600px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	list-style: none;
+	margin-top: 100px;
+	height: 200px;
+
+}
+nav .first_ul li{
+	background: white;
+	display: inline;
+	width: 400px;
+		
+}
+nav .first_ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+nav .first_ul #temp_inside{
+	background: rgba(255,255,255,0.6); 
+
+}
+
+nav .first_ul #temp_outsite{
+	background: rgba(255,255,255,0.6);
+}
+nav .first_ul #hum{
+	background: rgba(255,255,255,0.6);
+	
+}
+
+nav .first_ul #water{
+	background: rgba(255,255,255,0.6);
+	
+}
+
+
+
+
+
+{
+}
